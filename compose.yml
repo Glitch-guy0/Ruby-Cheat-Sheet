@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ruby:
+    image: archlinux
+    container_name: ruby
+    volumes:
+      - ./:/home/
+    tty: true
+    stdin_open: true
+    command: /bin/bash -c '
+      pacman -Sy &&
+      pacman -S --noconfirm ruby &&
+      /bin/bash'
+

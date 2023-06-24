@@ -19,3 +19,7 @@ myNumber = 34
 myString = 'this is a string'
 anotherString = "This is also a string"
 
+# taking input from the user
+
+puts "enter your value here: "
+input = gets
