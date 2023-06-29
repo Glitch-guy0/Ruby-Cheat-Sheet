@@ -6,8 +6,8 @@ and it works like This
 =end
 
 #printing output
-print "using print\n"
-puts "using puts"
+print "just prints pointer stays at the last printed character\n"
+puts "prints and places the pointer to next new line"
 
 # getting user input
 #gets 
@@ -18,6 +18,9 @@ puts "using puts"
 myNumber = 34
 myString = 'this is a string'
 anotherString = "This is also a string"
+
+puts "printing multiple strings"
+print myString," ",anotherString,"\n"
 
 # taking input from the user
 
