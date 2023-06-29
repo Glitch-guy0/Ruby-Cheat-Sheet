@@ -24,6 +24,11 @@ else
     puts newArr
 end
 =end
+
+# sorting in lists
+list = [5,2,4,52,4,2,3]
+print "sorted list: ",list.sort(),"\n"
+
 # hashes similar to python dictionaries
 # declaring
 dict = {}
